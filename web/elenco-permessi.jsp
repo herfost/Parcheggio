@@ -47,6 +47,12 @@
                                 Homepage
                             </a>
                         </li>
+                        <li>
+                            <a class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" href=<%= request.getContextPath() + "/" + Configuration.getLOGOUT_PAGE()%> >
+                                Logout
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
 

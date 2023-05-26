@@ -12,6 +12,7 @@ public final class Configuration {
     private static final String LOGO_URL = "https://avatars.githubusercontent.com/u/120043021?s=200&v=4";
     private static final String INDEX_PAGE = "index.jsp";
     private static final String LOGIN_PAGE = "login.jsp";
+    private static final String LOGOUT_PAGE = "logout.jsp";
     private static final String REGISTER_PAGE = "register.jsp";
     private static final String PERMESSI_PAGE = "elenco-permessi.jsp";
 
@@ -86,6 +87,13 @@ public final class Configuration {
      */
     public static String getLOGO_URL() {
         return LOGO_URL;
+    }
+
+    /**
+     * @return the LOGOUT_PAGE
+     */
+    public static String getLOGOUT_PAGE() {
+        return LOGOUT_PAGE;
     }
 
 }
